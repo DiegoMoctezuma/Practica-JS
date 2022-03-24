@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <img src="./img/logo.png" alt="logo-pokemon" class="logo-poke" />
+      <a target="_blank" href="https://pokeapi.co/" class="link-api">PokéAPI</a>
+    </header>
+    <!-- Wrapper -->
+    <section class="wrapper">
+      <!-- Pokedex -->
+      <article class="pokedex-img">
+        <!-- Stats left -->
+        <div class="stats-left">
+          <div class="pokemon-img">
+            <img src="./img/Pokéball.png" alt="pokemon" class="img-poke" />
+            <p class="name-pokemon">Pokédex</p>
+          </div>
+          <button class="btn-API" onclick="pokemonAPI()">Search Pokémon</button>
+          <div class="input-name">
+            <input
+              id="name-input"
+              type="text"
+              class="input-name"
+              placeholder="Pokémon Name"
+              maxlength="12"
+            />
+          </div>
+        </div>
+        <!-- Stats right -->
+        <div class="stats-right">
+          <article class="up">
+            <!-- stats -->
+            <p id="hp" class="stats hp">HP</p>
+            <p id="atk" class="stats attack">ATK</p>
+            <p id="def" class="stats defense">DEF</p>
+            <p id="speed" class="stats speed">SPEED</p>
+            <p id="sp-atk" class="stats special-attack">SP.ATK</p>
+            <p id="sp-def" class="stats special-defense">SP.DEF</p>
+          </article>
+          <article class="left"><p class="type-poke">Types</p></article>
+          <article class="right"><p class="type2-poke">Types</p></article>
+        </div>
+      </article>
+    </section>
+    <!-- footer -->
+    <footer>
+      <script src="./app.js"></script>
+    </footer>
+  </body>
+</html>

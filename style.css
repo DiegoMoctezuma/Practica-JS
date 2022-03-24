@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  max-width: 1400px;
+  background-image: url(./img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: 1800px;
+}
+/* Header */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 125px;
+  background-color: #2a75bb;
+}
+.logo-poke {
+  width: 200px;
+}
+.link-api {
+  transition: all 0.3s ease;
+  position: relative;
+  left: 500px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+.link-api:hover {
+  color: #ffcb05;
+}
+/* Wrapper */
+.wrapper {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pokedex-img {
+  display: flex;
+  background-image: url(./img/pokedex.png);
+  background-repeat: no-repeat;
+  height: 900px;
+  width: 1250px;
+}
+/* Stats left */
+.stats-left {
+  margin-left: 50px;
+  width: 40%;
+  height: 850px;
+}
+.pokemon-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 270px;
+  left: 80px;
+  height: 270px;
+  width: 390px;
+}
+.img-poke {
+  width: 200px;
+  position: relative;
+  top: 20px;
+}
+.name-pokemon {
+  font-family: "Press Start 2P", sans-serif;
+  position: relative;
+  top: 30px;
+  cursor: default;
+}
+.btn-API {
+  transition: all 0.3s ease;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 12px;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  top: 380px;
+  left: 140px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}
+.btn-API:hover {
+  color: #fff;
+}
+.input-name {
+  position: relative;
+  top: 210px;
+  left: 60px;
+  width: 190px;
+  height: 90px;
+  border: none;
+  background-color: transparent;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  outline: 0px;
+}
+
+/* Stats rigth */
+.stats-right {
+  position: relative;
+  top: 250px;
+  left: 150px;
+  width: 40%;
+  height: 600px;
+}
+.up {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+  top: 50px;
+  left: 50px;
+  width: 80%;
+  height: 140px;
+}
+/* Stats-Up */
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 10px;
+  left: 5px;
+  width: 90%;
+  height: 50px;
+  font-family: "Press Start 2P", sans-serif;
+  cursor: default;
+}
+#hp {
+  font-size: 14px;
+  color: #3dfe40;
+}
+#atk {
+  font-size: 14px;
+  color: #fe3d3d;
+}
+#def {
+  font-size: 14px;
+  color: #3dfef8;
+}
+#sp-atk {
+  font-size: 12px;
+  color: #ff6400;
+}
+#sp-def {
+  font-size: 12px;
+  color: #2e00ff;
+}
+#speed {
+  font-size: 12px;
+  color: #fefe3d;
+}
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 365px;
+  left: 50px;
+  width: 37%;
+  height: 60px;
+  cursor: default;
+}
+.type-poke {
+  font-family: "Press Start 2P", sans-serif;
+  color: #fff;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 305px;
+  left: 265px;
+  width: 37%;
+  height: 60px;
+  cursor: default;
+}
+.type2-poke {
+  font-family: "Press Start 2P", sans-serif;
+  color: #fff;
+}
